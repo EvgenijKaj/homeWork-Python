@@ -6,7 +6,10 @@
 # 24 -> 4  16  4
 #     60 -> 10  40  10
 number = int(input("введите количество журавликов: "))
-Pet = int(number/6)
-Kat = int(number/1.5)
-Serg = Pet
-print(Pet, Kat, Serg)
+pet = int(number/6)
+kat = int(number/1.5)
+serg = pet
+if pet + kat + serg != number:
+    print("невозможно посчитать")
+else:
+    print(pet, kat, serg)

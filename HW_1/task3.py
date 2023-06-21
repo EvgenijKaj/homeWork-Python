@@ -8,8 +8,8 @@
 # Input: 20 21 22(ввод чисел НЕ в одну строку)
 # Output: 32
 
-StudentFirstClass = int(input("введите число обучающихся 1-го класса: "))
-StudentSecondClass = int(input("введите число обучающихся 2-го класса: "))
-StudentTherdClass = int(input("введите число обучающихся 3-го класса: "))
-count = (StudentFirstClass - 1) // 2 + (StudentSecondClass - 1) // 2 + (StudentTherdClass - 1)//2 + 3
+student_first_class = int(input("введите число обучающихся 1-го класса: "))
+student_second_class = int(input("введите число обучающихся 2-го класса: "))
+student_therd_class = int(input("введите число обучающихся 3-го класса: "))
+count = (student_first_class - 1) // 2 + (student_second_class - 1) // 2 + (student_therd_class - 1)//2 + 3
 print(count)
